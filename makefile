@@ -1,4 +1,4 @@
-TARGET:=a.out
+TARGET:=dlist.out
 SOURCES:=$(wildcard *.c)
 
 ${TARGET}: ${SOURCES}
