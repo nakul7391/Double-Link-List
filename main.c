@@ -14,11 +14,7 @@ int main(int argc, char *argv[] )
 		insert_at_last(&head, &tail, 15);
 		insert_at_last(&head, &tail, 20);
 		print_list(head);
-		delete_element(&head, &tail, 15);
-		print_list(head);
-		delete_element(&head, &tail, 5);
-		print_list(head);
-		delete_element(&head, &tail, 157);
+		reverse_list(&head,&tail);
 		print_list(head);
 		return 0;
 }
